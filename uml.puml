@@ -1,0 +1,16 @@
+@startuml parkinglot
+class Parqueadero{
+compacto:string
+suv:string
+van:string
+horas()
+cobro()
+}
+
+class Carros{
+compacto:string
+suv:string
+van:string
+}
+
+@enduml
